@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="430ddb0c-6ab7-44cf-b260-848e3dcc966b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/todoapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/todoapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/todoapp/listeler.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/listeler.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Social-Media-With-Python-Flask" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -93,5 +90,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
