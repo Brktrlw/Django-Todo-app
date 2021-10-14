@@ -2,8 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("<h1>naber</h1>")
+    return render(request,"todoapp/index.html")
 
 def about(request):
-    return HttpResponse("hakkımda")
+    return render(request,"todoapp/about.html")
 

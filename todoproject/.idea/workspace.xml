@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430ddb0c-6ab7-44cf-b260-848e3dcc966b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/todoproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todoproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/todoapp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/todoapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +17,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1zV6I7zFEFqkx4DUMCw5a4GF2YY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +29,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Berkay\Documents\GitHub\Django-Todo-app\todoproject\templates\todoapp" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
