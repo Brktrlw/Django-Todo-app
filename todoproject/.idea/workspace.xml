@@ -4,6 +4,7 @@
     <list default="true" id="430ddb0c-6ab7-44cf-b260-848e3dcc966b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/todoapp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/todoapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/todoapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
