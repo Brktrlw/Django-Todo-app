@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
    <head>
@@ -5,10 +6,11 @@
       {% block styletag %}
       {% endblock %}
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <title>{% block title%} Boş Sayfa{% endblock %}</title>
    </head>
-   <body>
+   <body style="background:#212121">
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
          <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'index' %}">Todo App</a>
@@ -18,21 +20,21 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                <ul class="navbar-nav me-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="{% url 'index' %}">Anasayfa</a>
-                  </li>
+                     <a href="{% url 'index' %}"><button class="btn btn-outline-primary"><i class="fa fa-home" aria-hidden="true"></i> Anasayfa</button></a>
+                  </li>&nbsp;
                   <li class="nav-item">
-                     <a class="nav-link" href="{% url 'about' %}">Hakkımda</a>
-                  </li>
+                     <a href="{% url 'about' %}"><button class="btn btn-outline-info" ><i class="fa fa-info" aria-hidden="true"></i> Hakkımda</button></a>
+                  </li>&nbsp;
                   <li class="nav-item">
-                     <a class="nav-link" href="{% url 'listeler' %}">Listeler</a>
+                     <a href="{% url 'listeler' %}"><button class="btn btn-outline-success"><i class="fa fa-list-ul" aria-hidden="true"></i> Listeler</button></a>
                   </li>
                </ul>
                <form class="d-flex">
-                  <input class="form-control me-2" type="text" placeholder="Search">
-                  <button class="btn primarry btn-outline-primary" type="button">Ara</button>
+                  <input class="form-control me-2" type="text" placeholder="Arama yap">
                </form>
+                   <a><button class="btn primarry btn-outline-primary" type="button"><i class="fa fa-search" aria-hidden="true"></i> Ara</button></a>
                &nbsp;&nbsp;
-               <a href="admin/login"><button class="btn btn-outline-danger">Giriş Yap</button></a>
+               <a href="admin/login"><button class="btn btn-outline-danger"><i class="fa fa-sign-in" aria-hidden="true"></i> Giriş Yap</button></a>
             </div>
          </div>
       </nav>
