@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="430ddb0c-6ab7-44cf-b260-848e3dcc966b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/todoapp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/todoapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/todoapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/todoapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Berkay\Documents\GitHub\Django-Todo-app\todoproject\static" />
       <recent name="C:\Users\Berkay\Documents\GitHub\Django-Todo-app\todoproject\templates\todoapp" />
     </key>
   </component>

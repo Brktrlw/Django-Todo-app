@@ -2,6 +2,8 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
+      {% block styletag %}
+      {% endblock %}
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <title>{% block title%} Boş Sayfa{% endblock %}</title>
@@ -9,17 +11,20 @@
    <body>
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
          <div class="container-fluid">
-            <a class="navbar-brand" href="/">Todo App</a>
+            <a class="navbar-brand" href="{% url 'index' %}">Todo App</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mynavbar">
                <ul class="navbar-nav me-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="/">Anasayfa</a>
+                     <a class="nav-link" href="{% url 'index' %}">Anasayfa</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="/about">Hakkımda</a>
+                     <a class="nav-link" href="{% url 'about' %}">Hakkımda</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{% url 'listeler' %}">Listeler</a>
                   </li>
                </ul>
                <form class="d-flex">
@@ -27,7 +32,7 @@
                   <button class="btn primarry btn-outline-primary" type="button">Ara</button>
                </form>
                &nbsp;&nbsp;
-               <button  class="btn btn-outline-danger" href="/about">Giriş Yap</button>
+               <a href="admin/login"><button class="btn btn-outline-danger">Giriş Yap</button></a>
             </div>
          </div>
       </nav>
