@@ -3,5 +3,5 @@ from .models import Todo
 
 class TodoForm(forms.Form):
     title = forms.CharField(label='title', max_length=100)
-    description = forms.Textarea(label='description')
+    description = forms.CharField(label='description')
 
