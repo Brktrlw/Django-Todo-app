@@ -9,3 +9,6 @@ class Todo(models.Model):
     isFinished=models.BooleanField(default=False)
     date=models.DateTimeField(default=datetime.now())
 
+    def __str__(self):
+        return self.title
+

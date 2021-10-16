@@ -11,29 +11,24 @@
       <table class="table table-hover table-dark">
          <thead>
             <tr>
-               <th scope="col">#</th>
-               <th scope="col">First</th>
-               <th scope="col">Last</th>
-               <th scope="col">Handle</th>
+               <th scope="col">Id</th>
+               <th scope="col">Başlık</th>
+               <th scope="col">Durum</th>
+               <th scope="col">Açıklama</th>
+               <th scope="col">Güncelle</th>
+               <th scope="col">Sil</th>
             </tr>
          </thead>
          <tbody>
             <tr>
-               <th scope="row">1</th>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-            </tr>
-            <tr>
-               <th scope="row">2</th>
-               <td>Jacob</td>
-               <td>Thornton</td>
-               <td>@fat</td>
-            </tr>
-            <tr>
-               <th scope="row">3</th>
-               <td colspan="2">Larry the Bird</td>
-               <td>@twitter</td>
+               {% for todo in todo_list %}
+                  <th scope="row">{{todo.id}}</th>
+                  <td>{{todo.title}}</td>
+                  <td><a class="btn btn-success">Bitti</a></td>
+                  <td><a class="btn btn-outline-warning">Detaylar</a></td>
+                  <td><a class="btn btn-outline-info">Güncelle</a></td>
+                  <td><a class="btn btn-outline-danger">Sil</a></td>
+               {% endfor %}
             </tr>
          </tbody>
       </table>
