@@ -25,13 +25,13 @@
                <th scope="row">{{todo.id}}</th>
                <td>{{todo.title}}</td>
                {% if todo.isFinished == 0%}
-                  <td><a class="btn btn-danger">Bitmedi</a></td>
+                  <td><a class="btn btn-danger"><i class="fa fa-times" aria-hidden="true"></i> Bitmedi</a></td>
                {% else %}
-                  <td><a class="btn btn-success">Bitti</a></td>
+                  <td><a class="btn btn-success"><i class="fa fa-check" aria-hidden="true"></i> Bitti</a></td>
                {% endif %}
-               <td><a class="btn btn-outline-warning">Detaylar</a></td>
-               <td><a class="btn btn-outline-info">Güncelle</a></td>
-               <td><a class="btn btn-outline-danger">Sil</a></td>
+               <td><a class="btn btn-outline-warning"><i class="fa fa-list-alt" aria-hidden="true"></i> Detaylar</a></td>
+               <td><a class="btn btn-outline-info"><i class="fa fa-refresh" aria-hidden="true"></i> Güncelle</a></td>
+               <td><a class="btn btn-outline-danger"><i class="fa fa-trash" aria-hidden="true"></i> Sil</a></td>
                <!--
                   <td><a class="btn btn-outline-warning">Detaylar</a></td>
                   <td><a class="btn btn-outline-info">Güncelle</a></td>
