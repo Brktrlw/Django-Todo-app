@@ -11,10 +11,9 @@ def about(request):
 def create(request):
     if request.method=="POST":
         form=TodoForm(request.POST or None)
-        if form.is_valid:
+        if form.is_valid():
             form.save()
-            return render(request, "todoapp/createtodo.html")
-
+        return render(request, "todoapp/createtodo.html")
     else:
         return render(request,"todoapp/createtodo.html")
 
