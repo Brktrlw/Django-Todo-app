@@ -1,11 +1,11 @@
 from django.db import models
-from dateFunc import getDate
+from datetime import datetime
 
 
 
 class Todo(models.Model):
     title=models.CharField(max_length=100)
     description=models.TextField(max_length=500,blank=True)
-    isFinished=models.BooleanField(default=True)
-    date=models.DateTimeField(default=getDate())
+    isFinished=models.BooleanField(default=False)
+    date=models.DateTimeField(default=datetime.now())
 
