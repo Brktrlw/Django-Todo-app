@@ -11,6 +11,7 @@ Oluştur
    <hr class="my-4">
    <form method="POST">
        {% csrf_token %}
+      {{ form }}
       <div class="form-group">
          <label>Başlık</label>
          <input type="text" class="form-control" name="title" placeholder="Todo başlığı giriniz">

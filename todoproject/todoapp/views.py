@@ -10,9 +10,10 @@ def about(request):
 
 def create(request):
     if request.method=="POST":
-        form=TodoForm(request.POST or None)
-        if form.is_valid:
-            form.save()
+        form=TodoForm(request.POST)
+        if form.is_valid():
+            title = form.cleaned_data['title']
+            description = form.cleaned_data['description']
             return render(request, "todoapp/createtodo.html")
     else:
         return render(request,"todoapp/createtodo.html")
