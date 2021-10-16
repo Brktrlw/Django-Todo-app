@@ -22,10 +22,18 @@ def delete(request,Todo_id):
     todo.delete()
     return redirect("listeler")
 
+def changeStatus(request,Todo_id):
+    todo=Todo.objects.get(pk=Todo_id)
+    if todo.isFinished==False:
+        todo.isFinished=True
+    else:
+        todo.isFinished=False
+    todo.save()
+    return redirect("listeler")
+
 
 def listeler(request):
     todo_list=Todo.objects.all()
-    print(todo_list)
     return render(request,"todoapp/listeler.html",{"todo_list":todo_list})
 
 
