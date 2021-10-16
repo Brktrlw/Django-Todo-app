@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import Todo
 from .forms import TodoForm
@@ -16,6 +16,12 @@ def create(request):
             return render(request, "todoapp/createtodo.html")
     else:
         return render(request,"todoapp/createtodo.html")
+
+def delete(request,Todo_id):
+    todo=Todo.objects.get(pk=Todo_id)
+    todo.delete()
+    return redirect("listeler")
+
 
 def listeler(request):
     todo_list=Todo.objects.all()
