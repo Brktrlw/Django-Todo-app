@@ -20,7 +20,7 @@
             </tr>
          </thead>
          <tbody>
-         {% for todo in todo_list %}
+            {% for todo in todo_list %}
             <tr>
                <th scope="row">{{todo.id}}</th>
                <td>{{todo.title}}</td>
@@ -29,17 +29,15 @@
                {% else %}
                   <td><a class="btn btn-success">Bitti</a></td>
                {% endif %}
-
-               <td>{{title.description}}</td>
+               <td><a class="btn btn-outline-warning">Detaylar</a></td>
                <td><a class="btn btn-outline-info">Güncelle</a></td>
                <td><a class="btn btn-outline-danger">Sil</a></td>
                <!--
-               <td><a class="btn btn-outline-warning">Detaylar</a></td>
-               <td><a class="btn btn-outline-info">Güncelle</a></td>
-               <td><a class="btn btn-outline-danger">Sil</a></td>-->
-
+                  <td><a class="btn btn-outline-warning">Detaylar</a></td>
+                  <td><a class="btn btn-outline-info">Güncelle</a></td>
+                  <td><a class="btn btn-outline-danger">Sil</a></td>-->
             </tr>
-         {% endfor %}
+            {% endfor %}
          </tbody>
       </table>
    </div>
